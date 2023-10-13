@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 1 Pemweb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="foto.jpg" alt="img" height="150">
+        
+        <div class="title">
+            <h1>Zikra Daffa Saputra</h1>
+            <P>1221140018</P>
+        </div>
+    </header>
+
+    <ul>
+        <li> <a href="https://www.itera.ac.id/">Kampus</a></li>
+        <li> <a href="https://www.youtube.com/@Arkizzz/videos">Youtube</a></li>
+        <li> <a href="https://www.instagram.com/zikra.ds/">Instagram</a></li>
+    </ul>
+    
+    <article>
+        <h1>About Me</h1>
+        <p>Saya adalah seorang mahasiswa semester 5 program studi Teknik Informatika di Institus Teknologi Sumatera. Saya berusia 20 tahun dan memiliki hobi dibidang fotografi dan videografi.</p>
+        <div class="video">
+            <iframe 
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/NJVXzok3OOM?si=_ku0HGjjcYoH6imX" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </article>
+    
+    <div class="pengalaman">
+        <h1>Pengalaman</h1>
+        <table border="1">
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Organisasi</th>
+                <th colspan="2">Waktu</th>
+                <tr>
+                    <th>Mulai</th>
+                    <th>Selesai</th>
+                </tr>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Koor. Video</td>
+                <td>Tim Jurnalistik MAN 1 Kota Bekasi</td>
+                <td>2019</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Koor. Video</td>
+                <td>Jurnalistik Muda Kota Bekasi</td>
+                <td>2020</td>
+                <td>2021</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="kontak">
+    <h1>Hubungi Saya</h1>
+        <form action="hasil.php" method="get">
+            <br>Email: <input type="email" name="email-input">
+            <p>Apakah ada yang ingin ditanyakan?</p>
+            <input type="radio" name="jawab-1" value="ya"> Ya
+            <input type="radio" name="jawab-1" value="no"> Tidak
+            <input type="submit" name="tombol" value="simpan">
+        </form>
+    </div>
+
+    <footer>
+        Prak Pemweb 2023
+    </footer>
+</body>
+</html>
